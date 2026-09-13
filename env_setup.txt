@@ -1,0 +1,21 @@
+import os
+from dotenv import load_dotenv
+
+
+
+
+load_dotenv()
+
+
+
+# Raise a specific exception if the file fails to load
+if not load_dotenv():
+    raise FileNotFoundError("Failed to load the .env file. Does it exist?")
+
+
+
+
+
+api_key = os.getenv("API_KEY")
+
+print(f"My API key is: {api_key}")
