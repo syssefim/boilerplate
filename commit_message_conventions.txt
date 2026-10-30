@@ -1,0 +1,14 @@
+<type>[optional scope]: <description>
+
+
+feat: Introduces a brand new feature
+fix: Patches an existing bug or issue
+refactor: Rewrites or restructures code without altering external behavior or fixing bugs.
+chore: Maintenance tasks that don't modify source files
+docs: Changes that exclusively impact the documentation.
+style: Code formatting adjustments that do not alter functionality
+test: Adds new test suites or fixes existing tests.
+perf: A specialized code change optimized explicitly for performance.
+build: Changes targeting CI/CD pipelines, build tools, or internal release configurations.
+
+
