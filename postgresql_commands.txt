@@ -1,0 +1,7 @@
+psql -U postgres        OR      psql -U postgres -d my_database
+
+\l      List databases
+\c my_database  Connect to a database
+\dt     List tables
+\d movies       Show the structure of the movies table
+\q      Exit psql
