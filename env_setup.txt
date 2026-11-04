@@ -16,6 +16,6 @@ if not load_dotenv():
 
 
 
-api_key = os.getenv("API_KEY")
+api_key = os.getenv("API_KEY", "defaulting value")
 
 print(f"My API key is: {api_key}")
