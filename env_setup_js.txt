@@ -1,0 +1,15 @@
+env:
+
+PORT=3000
+API_KEY=xyz12345
+
+
+.js:
+
+const port = process.env.PORT;
+console.log(`Server running on port ${port}`);
+
+
+bash:
+node --env-file=.env index.js
+
