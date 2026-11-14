@@ -1,0 +1,3 @@
+v	highlights characters
+y	copies highlighted text
+"+y	copies highlighted text to clipboard
