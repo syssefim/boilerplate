@@ -1,0 +1,10 @@
+hi.sh
+	#!/usr/bin/env bash
+	echo hi
+
+chmod +x hi.sh
+
+
+
+
+source ./hi.sh

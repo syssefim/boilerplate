@@ -1,0 +1,14 @@
+Wifi:
+$ nmtui
+
+Sleep:
+$ systemctl suspend
+
+Power:
+$ cat /sys/class/power_supply/BAT0/capacity
+$ whatmypowerlol
+
+Perm Aliases:
+$ nano ~/.bashrc
+$ alias shortname='your long command here'
+$ source ~/.bashrc
